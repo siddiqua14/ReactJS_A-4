@@ -1,0 +1,112 @@
+{
+	"info": {
+		"_postman_id": "93dc4949-57c0-4f3c-8eea-4721450fa7f1",
+		"name": "NextJs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38811648"
+	},
+	"item": [
+		{
+			"name": "create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Cozy Mountain Retreat\",\r\n    \"description\": \"A serene retreat nestled in the mountains with breathtaking views.\",\r\n    \"guestCount\": 4,\r\n    \"bedroomCount\": 2,\r\n    \"bathroomCount\": 2,\r\n    \"images\": [],\r\n    \"amenities\": [\"Pool\", \"Spa\", \"Free Parking\"],\r\n    \"host\": \"Jane Smith\",\r\n    \"address\": \"456 Mountain Rd, Hilltown, Country\",\r\n    \"rooms\": [\r\n        {\r\n            \"hotelSlug\": \"cozy-mountain-retreat\",\r\n            \"roomSlug\": \"family-suite\",\r\n            \"roomImage\": [\"suite-image1.jpg\", \"suite-image2.jpg\"],\r\n            \"roomTitle\": \"Family Suite\",\r\n            \"bedroomCount\": 2\r\n        },\r\n        {\r\n            \"hotelSlug\": \"cozy-mountain-retreat\",\r\n            \"roomSlug\": \"single-room\",\r\n            \"roomImage\": [],\r\n            \"roomTitle\": \"Single Room\",\r\n            \"bedroomCount\": 1\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/hotel",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"hotel"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/hotel/1731844455445",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"hotel",
+						"1731844455445"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "hotelImage",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "postman-cloud:///1efa10df-34a6-4300-b319-a8462d39b156"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/images/1731844455445",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"images",
+						"1731844455445"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "room image",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/images/1731844455445",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"images",
+						"1731844455445"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
