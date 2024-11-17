@@ -1,0 +1,36 @@
+{
+  "id": "1731844455445",
+  "slug": "cozy-mountain-retreat",
+  "title": "Cozy Mountain Retreat",
+  "description": "A serene retreat nestled in the mountains with breathtaking views.",
+  "guestCount": 4,
+  "bedroomCount": 2,
+  "bathroomCount": 2,
+  "images": [],
+  "amenities": [
+    "Pool",
+    "Spa",
+    "Free Parking"
+  ],
+  "host": "Jane Smith",
+  "address": "456 Mountain Rd, Hilltown, Country",
+  "rooms": [
+    {
+      "hotelSlug": "cozy-mountain-retreat",
+      "roomSlug": "family-suite",
+      "roomTitle": "Family Suite",
+      "bedroomCount": 2,
+      "roomImage": [
+        "suite-image1.jpg",
+        "suite-image2.jpg"
+      ]
+    },
+    {
+      "hotelSlug": "cozy-mountain-retreat",
+      "roomSlug": "single-room",
+      "roomTitle": "Single Room",
+      "bedroomCount": 1,
+      "roomImage": []
+    }
+  ]
+}

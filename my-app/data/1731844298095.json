@@ -1,0 +1,30 @@
+{
+  "id": "1731844298095",
+  "slug": "hotel-example",
+  "title": "Hotel Example",
+  "description": "A beautiful hotel in the city center.",
+  "guestCount": 2,
+  "bedroomCount": 1,
+  "bathroomCount": 1,
+  "images": [
+    "image1.jpg",
+    "image2.jpg"
+  ],
+  "amenities": [
+    "WiFi",
+    "Breakfast"
+  ],
+  "host": "John Doe",
+  "address": "123 Main St, Cityville, Country",
+  "rooms": [
+    {
+      "hotelSlug": "hotel-example",
+      "roomSlug": "deluxe-room",
+      "roomTitle": "Deluxe Room",
+      "bedroomCount": 1,
+      "roomImage": [
+        "room-image1.jpg"
+      ]
+    }
+  ]
+}

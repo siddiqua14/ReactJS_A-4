@@ -1,0 +1,28 @@
+{
+  "id": "1731829044534",
+  "slug": "king-hotel",
+  "title": "King Hotel",
+  "description": "A luxury place to stay.",
+  "guestCount": 4,
+  "bedroomCount": 2,
+  "bathroomCount": 1,
+  "images": [
+    "image1.jpg",
+    "image2.jpg"
+  ],
+  "amenities": [
+    "WiFi",
+    "Pool"
+  ],
+  "host": "John Doe",
+  "address": "123 Main St",
+  "rooms": [
+    {
+      "hotelSlug": "my-new-hotel",
+      "roomSlug": "deluxe-room",
+      "roomImage": "room-image.jpg",
+      "roomTitle": "Deluxe Room",
+      "bedroomCount": 1
+    }
+  ]
+}

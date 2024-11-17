@@ -1,0 +1,25 @@
+{
+  "id": "1731841753406",
+  "slug": "paradise",
+  "title": "Paradise",
+  "description": "A beautiful beachfront hotel",
+  "guestCount": 4,
+  "bedroomCount": 2,
+  "bathroomCount": 2,
+  "images": [],
+  "amenities": [
+    "WiFi",
+    "Pool"
+  ],
+  "host": "John Doe",
+  "address": "123 Beach Road",
+  "rooms": [
+    {
+      "hotelSlug": "sunset-paradise",
+      "roomSlug": "ocean-view",
+      "roomTitle": "Ocean View Room",
+      "bedroomCount": 1,
+      "roomImage": []
+    }
+  ]
+}

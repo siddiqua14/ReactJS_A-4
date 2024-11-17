@@ -1,0 +1,28 @@
+{
+  "id": "1731835901170",
+  "slug": "six-season",
+  "title": "six-season",
+  "description": "A beautiful place to stay.",
+  "guestCount": 3,
+  "bedroomCount": 2,
+  "bathroomCount": 1,
+  "images": [
+    "image1.jpg",
+    "image2.jpg"
+  ],
+  "amenities": [
+    "WiFi",
+    "Pool"
+  ],
+  "host": "John Doe",
+  "address": "123 Main St",
+  "rooms": [
+    {
+      "hotelSlug": "six-season",
+      "roomSlug": "deluxe-room",
+      "roomImage": "room-image.jpg",
+      "roomTitle": "Deluxe Room",
+      "bedroomCount": 1
+    }
+  ]
+}

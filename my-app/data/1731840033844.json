@@ -1,0 +1,27 @@
+{
+  "id": "1731840033844",
+  "slug": "sunset-paradise",
+  "title": "Sunset Paradise",
+  "description": "A serene escape with stunning views of the sunset.",
+  "guestCount": 4,
+  "bedroomCount": 3,
+  "bathroomCount": 2,
+  "images": [],
+  "amenities": [
+    "WiFi",
+    "Pool",
+    "Air Conditioning",
+    "Parking"
+  ],
+  "host": "Jane Smith",
+  "address": "456 Ocean Drive",
+  "rooms": [
+    {
+      "hotelSlug": "sunset-paradise",
+      "roomSlug": "cozy-nook",
+      "roomImage": [],
+      "roomTitle": "Cozy Nook",
+      "bedroomCount": 1
+    }
+  ]
+}

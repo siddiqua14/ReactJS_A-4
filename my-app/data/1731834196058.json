@@ -1,0 +1,25 @@
+{
+  "id": "1731834196058",
+  "slug": "queen",
+  "title": "Queen",
+  "description": "A luxury place to stay.",
+  "guestCount": 4,
+  "bedroomCount": 2,
+  "bathroomCount": 1,
+  "images": [],
+  "amenities": [
+    "WiFi",
+    "Pool"
+  ],
+  "host": "John Doe",
+  "address": "123 Main St",
+  "rooms": [
+    {
+      "hotelSlug": "my-new-hotel",
+      "roomSlug": "deluxe-room",
+      "roomImage": "room-image.jpg",
+      "roomTitle": "Deluxe Room",
+      "bedroomCount": 1
+    }
+  ]
+}
